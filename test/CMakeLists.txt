@@ -236,7 +236,7 @@ INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR})
 
 ################################################################################
 
-INCLUDE(${CMAKE_SOURCE_DIR}/cmake/PrecompiledHeaders.cmake)
+INCLUDE(${CMAKE_CURRENT_LIST_DIR}/../cmake/PrecompiledHeaders.cmake)
 
 OPTION(USE_PRECOMPILED_HEADERS "Use precompiled headers in tests" OFF)
 
