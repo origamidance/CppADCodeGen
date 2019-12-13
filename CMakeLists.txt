@@ -168,13 +168,13 @@ ENDIF()
 # Currently building tests as normal executables
 # ----------------------------------------------------------------------------
 ADD_SUBDIRECTORY(include)
-ADD_SUBDIRECTORY(example EXCLUDE_FROM_ALL)
+#ADD_SUBDIRECTORY(example EXCLUDE_FROM_ALL)
 #ADD_SUBDIRECTORY(introduction EXCLUDE_FROM_ALL)
-ADD_SUBDIRECTORY(speed EXCLUDE_FROM_ALL)
-ADD_SUBDIRECTORY(python)
-ADD_SUBDIRECTORY(pkgconfig)
-ADD_SUBDIRECTORY(doc)
+#ADD_SUBDIRECTORY(speed EXCLUDE_FROM_ALL)
+#ADD_SUBDIRECTORY(python)
+#ADD_SUBDIRECTORY(pkgconfig)
+#ADD_SUBDIRECTORY(doc)
 
 # enable testing must be called here in order for the target test to be created
-ENABLE_TESTING()
-ADD_SUBDIRECTORY(test EXCLUDE_FROM_ALL)
+#ENABLE_TESTING()
+#ADD_SUBDIRECTORY(test EXCLUDE_FROM_ALL)
